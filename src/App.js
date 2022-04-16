@@ -1,5 +1,6 @@
 import logo from './logo.svg';
 import './App.css';
+import HomeBottom from './page/home/Bottom';
 
 function App() {
   return (
@@ -7,17 +8,12 @@ function App() {
       <header className="App-header">
         <img src={logo} className="App-logo" alt="logo" />
         <p>
-          Edit <code>src/App.js</code> and save to reload.
+          欢迎来到我的主页
         </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
       </header>
+      <bottom className="App-bottom">
+        <HomeBottom className="homeButtom" city="桂" number="2022003164"/>
+      </bottom>
     </div>
   );
 }
