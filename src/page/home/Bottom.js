@@ -4,9 +4,10 @@ const HomeBottom = (props) => {
   const href = "https://beian.miit.gov.cn/";
   const target = "_blank";
   const style = {
-    color: "#61dafb",
+    color: "#798d92",
     target: "_blank",
     bottom: "0px",
+    textDecoration: "none"
   };
   return (
     <a href={href} target={target} style={style}>

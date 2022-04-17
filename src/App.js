@@ -1,19 +1,16 @@
-import logo from './logo.svg';
+// import logo from './logo.svg';
 import './App.css';
 import HomeBottom from './page/home/Bottom';
 
 function App() {
+  const bottomNum = "0px";
   return (
     <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          欢迎来到我的主页
-        </p>
-      </header>
-      <bottom className="App-bottom">
+      
+      <div className='App-bottom'>
+        <p style={{bottom:bottomNum}}>Powered by xiaoyi</p>
         <HomeBottom className="homeButtom" city="桂" number="2022003164"/>
-      </bottom>
+      </div>
     </div>
   );
 }
