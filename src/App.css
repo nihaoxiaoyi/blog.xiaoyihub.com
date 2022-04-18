@@ -1,11 +1,15 @@
 .App {
   text-align: center;
-  max-height: 100vh;
+  background: url(image/bk/bk1.jpg);
+  background-size: cover;
+  min-height: 100vh;
   display: flex;
   flex-direction: column;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
+  position: relative;
+  overflow: hidden;
 }
 
 .App-bottom {
@@ -13,38 +17,7 @@
   flex-direction: column;
   align-items: center;
   justify-content: center;
-  font-size: 1vmin;
-  position: fixed;
+  font-size: calc(10px + 1vmin);
+  position: absolute;
   bottom: 0px;
-  animation:bottom-move 16s infinite;
-}
-
-@keyframes bottom-move {
-    0% {
-      transform: rotate(0deg);
-    }
-    10% {
-      transform: rotate(5deg);
-    }
-    20% {
-      transform: rotate(10deg);
-    }
-    30% {
-      transform: rotate(5deg);
-    }
-    40% {
-      transform: rotate(0deg);
-    }
-    50% {
-      transform: rotate(-5deg);
-    }
-    60% {
-      transform: rotate(-10deg);
-    }
-    70% {
-      transform: rotate(-5deg);
-    }
-    80% {
-      transform: rotate(0deg);
-    }
 }

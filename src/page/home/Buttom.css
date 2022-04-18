@@ -1,0 +1,28 @@
+.icp-link {
+    color:#798d92;
+    bottom: 0px;
+    text-decoration: none;
+    animation: icp-link-move 10s infinite;
+}
+
+.icp-link:hover {
+    font-size: calc(10px + 2vmin);
+}
+
+@keyframes icp-link-move {
+    0% {
+      transform: rotate(0deg);
+    }
+    25% {
+      transform: rotate(5deg);
+    }
+    50% {
+      transform: rotate(0deg);
+    }
+    75% {
+      transform: rotate(-5deg);
+    }
+    100% {
+      transform: rotate(0deg);
+    }
+}
