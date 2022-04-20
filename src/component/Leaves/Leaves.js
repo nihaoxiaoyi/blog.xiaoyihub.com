@@ -1,9 +1,9 @@
 import React from "react";
 import "./Leaves.css";
-import leaf1 from "../image/leaves/maple1.png";
-import leaf2 from "../image/leaves/maple2.png";
-import leaf3 from "../image/leaves/maple3.png";
-import leaf4 from "../image/leaves/maple4.png";
+import leaf1 from "../../image/leaves/maple1.png";
+import leaf2 from "../../image/leaves/maple2.png";
+import leaf3 from "../../image/leaves/maple3.png";
+import leaf4 from "../../image/leaves/maple4.png";
 
 export default class Leaves extends React.Component {
   render() {
